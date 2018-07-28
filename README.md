@@ -5,7 +5,7 @@ This is a command line version of [AlchemicalAssistant](http://traken.chem.yale.
 Created on Saturday July 28 and 16:10:05 2016
 
 
-![LOGO](https://octodex.github.com/images/yaktocat.png)
+![LOGO](https://github.com/leelasd/AlchemicalAssistant/blob/master/FEPPER.png)
 
 @author: Leela Sriram Dodda leela.dodda@yale.edu
 @author: Matt R. Robinson leela.dodda@yale.edu
