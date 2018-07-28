@@ -2,14 +2,17 @@
 
 AlchemicalAssistant is based on Jorgensen group's OPLS-AA/CM1A(-LBCC) FF and LigParGen
 This is a command line version of [AlchemicalAssistant](http://traken.chem.yale.edu/ligpargen/moleculeDrawAlchemistry.html)
-Created on Saturday July 28 and 16:10:05 2016
 
 
 ![LOGO](https://github.com/leelasd/AlchemicalAssistant/blob/master/FEPPER.png)
 
-@author: Leela Sriram Dodda leela.dodda@yale.edu
-@author: Matt R. Robinson leela.dodda@yale.edu
-@author: William L. Jorgensen Lab 
+author : Leela Sriram Dodda leela.dodda@yale.edu
+
+author : Matt R. Robinson leela.dodda@yale.edu
+
+author : William L. Jorgensen Lab 
+
+created on 28/07/2018 
 
 ## FF formats provided : 
 --------------------
@@ -29,7 +32,7 @@ Usage: AlchemicalAssistant -A INI.z -B FIN.z
 
 ## REQUIREMENTS:
 
-BOSS (need to set BOSSdir in bashrc and cshrc)
+* BOSS (need to set BOSSdir in bashrc and cshrc)
 
 * Preferably Anaconda python with following modules
   
