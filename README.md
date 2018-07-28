@@ -1,40 +1,33 @@
 # My project's README
 
-Alchemical Assistant is based on 
-(LigParGen)Ligand Parameter Generator Based on 
-Jorgensen group's OPLS-AA/CM1A(-LBCC) FF
-Created on Mon Feb 15 15:40:05 2016
+AlchemicalAssistant is based on Jorgensen group's OPLS-AA/CM1A(-LBCC) FF and LigParGen
+Created on Saturday July 28 and 16:10:05 2016
 
 @author: Leela Sriram Dodda leela.dodda@yale.edu
 @author: Matt R. Robinson leela.dodda@yale.edu
 @author: William L. Jorgensen Lab 
 
-##FF formats provided : 
+## FF formats provided : 
 --------------------
+
 CHARMM/NAMD  .prm & .rtf  
 GROMACS      .itp & .gro 
 BOSS/MCPRO   .z
 TINKER       .key & .xyz
 
-##Input Files supported : 
+## Input Files supported : 
 --------------------
 
 BOSS Z-matrix
 
-################################################## 
-
-if using Z-matrix file 
-Usage: LigParGen -A INI.z -B FIN.z  
+Usage: AlchemicalAssistant -A INI.z -B FIN.z  
 
 
 ## REQUIREMENTS:
 
 BOSS (need to set BOSSdir in bashrc and cshrc)
 Preferably Anaconda python with following modules
-pandas 
-argparse
-numpy
-openbabel
+LigParGen
 rdkit
 
 Please cite following references: 
