@@ -1,4 +1,4 @@
-# My project's README
+# AlchemicalAssistant
 
 AlchemicalAssistant is based on Jorgensen group's OPLS-AA/CM1A(-LBCC) FF and LigParGen
 This is a command line version of [AlchemicalAssistant](http://traken.chem.yale.edu/ligpargen/moleculeDrawAlchemistry.html)
