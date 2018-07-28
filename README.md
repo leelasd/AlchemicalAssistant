@@ -1,7 +1,11 @@
 # My project's README
 
 AlchemicalAssistant is based on Jorgensen group's OPLS-AA/CM1A(-LBCC) FF and LigParGen
+This is a command line version of [AlchemicalAssistant](http://traken.chem.yale.edu/ligpargen/moleculeDrawAlchemistry.html)
 Created on Saturday July 28 and 16:10:05 2016
+
+
+![LOGO](https://octodex.github.com/images/yaktocat.png)
 
 @author: Leela Sriram Dodda leela.dodda@yale.edu
 @author: Matt R. Robinson leela.dodda@yale.edu
@@ -10,10 +14,10 @@ Created on Saturday July 28 and 16:10:05 2016
 ## FF formats provided : 
 --------------------
 
-CHARMM/NAMD  .prm & .rtf  
-GROMACS      .itp & .gro 
-BOSS/MCPRO   .z
-TINKER       .key & .xyz
+- CHARMM/NAMD  .prm & .rtf  
+- GROMACS      .itp & .gro 
+- BOSS/MCPRO   .z
+- TINKER       .key & .xyz
 
 ## Input Files supported : 
 --------------------
@@ -26,9 +30,11 @@ Usage: AlchemicalAssistant -A INI.z -B FIN.z
 ## REQUIREMENTS:
 
 BOSS (need to set BOSSdir in bashrc and cshrc)
-Preferably Anaconda python with following modules
-LigParGen
-rdkit
+
+* Preferably Anaconda python with following modules
+  
+ - LigParGen
+ - rdkit
 
 Please cite following references: 
 
