@@ -1,0 +1,15 @@
+REMARK    BOSS Z-Matrix with LSDautozmat
+REMARK    Created by BOSS 4.9 Jun 14 Linux 
+ATOM      1  C00 BNZ     1       1.000   1.000   0.000
+ATOM      2  C01 BNZ     1      -0.395   1.000   0.000
+ATOM      3  C02 BNZ     1      -1.091   1.000   1.209
+ATOM      4  C03 BNZ     1      -0.392   1.000   2.415
+ATOM      5  C04 BNZ     1       1.003   1.000   2.412
+ATOM      6  C05 BNZ     1       1.696   1.000   1.209
+ATOM      7  H06 BNZ     1       1.543   0.999  -0.942
+ATOM      8  H07 BNZ     1      -0.937   0.999  -0.942
+ATOM      9  H08 BNZ     1      -2.178   0.999   1.209
+ATOM     10  H09 BNZ     1      -0.934   1.001   3.357
+ATOM     11  H0A BNZ     1       1.548   1.001   3.352
+ATOM     12  H0B BNZ     1       2.783   1.001   1.209
+END

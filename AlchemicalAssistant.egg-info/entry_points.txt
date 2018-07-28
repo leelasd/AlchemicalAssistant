@@ -1,0 +1,3 @@
+[console_scripts]
+AlchemicalAssistant = AlchemicalAssistant.AlchemicalAssistant:main
+

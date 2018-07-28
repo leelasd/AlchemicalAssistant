@@ -1,0 +1,15 @@
+REMARK    MCPRO/BOSS FEP Z-Matrix by LSD
+REMARK    Created by BOSS 4.9 Jun 14 Linux 
+ATOM      1  C00 A2B     1       1.000   1.000   0.000
+ATOM      2  C01 A2B     1      -0.391   1.000   0.000
+ATOM      3  C02 A2B     1      -1.082   1.000   1.202
+ATOM      4  N03 A2B     1      -0.403   1.000   2.369
+ATOM      5  C04 A2B     1       0.947   1.000   2.364
+ATOM      6  C05 A2B     1       1.693   1.000   1.206
+ATOM      7  H06 A2B     1       1.541   0.999  -0.942
+ATOM      8  H07 A2B     1      -0.931   0.999  -0.940
+ATOM      9  H08 A2B     1      -2.168   0.999   1.202
+ATOM     10  H09 A2B     1       1.493   1.001   3.304
+ATOM     11  H0A A2B     1       2.777   1.001   1.206
+ATOM     12  DuB A2B     1      -0.553   1.000   2.629
+END

@@ -1,0 +1,14 @@
+REMARK    BOSS Z-Matrix with LSDautozmat
+REMARK    Created by BOSS 4.9 Jun 14 Linux 
+ATOM      1  C00 PRD     1       1.000   1.000   0.000
+ATOM      2  C01 PRD     1      -0.391   1.000   0.000
+ATOM      3  C02 PRD     1      -1.045   1.000   1.222
+ATOM      4  N03 PRD     1      -0.409   1.000   2.413
+ATOM      5  C04 PRD     1       0.941   1.000   2.377
+ATOM      6  C05 PRD     1       1.681   1.000   1.213
+ATOM      7  H06 PRD     1       1.548   0.999  -0.938
+ATOM      8  H07 PRD     1      -0.951   1.001  -0.928
+ATOM      9  H08 PRD     1      -2.130   1.001   1.274
+ATOM     10  H09 PRD     1       1.429   0.999   3.348
+ATOM     11  H0A PRD     1       2.764   0.999   1.247
+END
