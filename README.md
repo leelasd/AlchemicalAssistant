@@ -33,11 +33,9 @@ Usage: AlchemicalAssistant -A INI.z -B FIN.z
 ## REQUIREMENTS:
 
 * BOSS (need to set BOSSdir in bashrc and cshrc)
-
 * Preferably Anaconda python with following modules
-  
- - LigParGen
- - rdkit
+* LigParGen
+* rdkit
 
 Please cite following references: 
 
