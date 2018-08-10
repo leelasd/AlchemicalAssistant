@@ -1,7 +1,7 @@
 import pickle 
 import pandas as pd
-from Vector_algebra import AtomNum2Mass 
-from FEPBOSSReader import tor_cent
+from AlchemicalAssistant.Vector_algebra import AtomNum2Mass 
+from AlchemicalAssistant.FEPBOSSReader import tor_cent
 
 def xyz_prep(atoms, coos, bonds, f_df, resid='A2B',pdbname='COMBO'):
     opdb = open(pdbname+'_tinker.xyz', 'w+')

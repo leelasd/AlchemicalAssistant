@@ -1,14 +1,14 @@
-from MolReaders import ReadMol2File, make_graphs, ReadMolFile, SPZmat
-from MolReaders import bossElement2Num, GetMol2Tripos, GetDummyType, EXPZmat, tor_id
-from FEPBOSSReader import BOSSReader
-from FEP_ZMAT import GetGeomVars, print_FEPZMAT
-from Vector_algebra import pairing_func, ang_id, IsImproper, AtomNum2Mass
-from GMX_for_FEP import WriteGmxTop
+from AlchemicalAssistant.MolReaders import ReadMol2File, make_graphs, ReadMolFile, SPZmat
+from AlchemicalAssistant.MolReaders import bossElement2Num, GetMol2Tripos, GetDummyType, EXPZmat, tor_id
+from AlchemicalAssistant.FEPBOSSReader import BOSSReader
+from AlchemicalAssistant.FEP_ZMAT import GetGeomVars, print_FEPZMAT
+from AlchemicalAssistant.Vector_algebra import pairing_func, ang_id, IsImproper, AtomNum2Mass
+from AlchemicalAssistant.GMX_for_FEP import WriteGmxTop
 import pandas as pd
 import sys
 import pickle
-from ReadZmat import AddImpLinestoZmat
-from NAMD_Rel_FEP import MakeA2B
+from AlchemicalAssistant.ReadZmat import AddImpLinestoZmat
+from AlchemicalAssistant.NAMD_Rel_FEP import MakeA2B
 
 def merge_two_dicts(x, y):
     z = x.copy()   # start with x's keys and values

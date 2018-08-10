@@ -1,10 +1,10 @@
 import pickle 
 import numpy as np 
 import pandas as pd
-from FEPBOSSReader import bossPdbAtom2Element,ucomb,tor_cent
-from Vector_algebra import pairing_func,AtomNum2Symb,AtomNum2Mass
-from MolReaders import ang_id,tor_id
-from TINKER_Rel_FEP import xyz_prep,tinker_prm
+from AlchemicalAssistant.FEPBOSSReader import bossPdbAtom2Element,ucomb,tor_cent
+from AlchemicalAssistant.Vector_algebra import pairing_func,AtomNum2Symb,AtomNum2Mass
+from AlchemicalAssistant.MolReaders import ang_id,tor_id
+from AlchemicalAssistant.TINKER_Rel_FEP import xyz_prep,tinker_prm
 
 def pdb_prep(atoms, coos, resid='A2B',pdbname='COMBO'):
     opdb = open(pdbname+'_NAMD.pdb', 'w+')

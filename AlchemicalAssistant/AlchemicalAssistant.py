@@ -1,6 +1,6 @@
 import argparse
 import os
-from MakeFEPZmat import Alchemify
+from AlchemicalAssistant.MakeFEPZmat import Alchemify
 
 
 #def main(**kwargs):

@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from Vector_algebra import AtomNum2Symb, pairing_func
+from AlchemicalAssistant.Vector_algebra import AtomNum2Symb, pairing_func
 
 DUM_ANG_CONST = 10.0
 DUM_BND_CONST = 300.0

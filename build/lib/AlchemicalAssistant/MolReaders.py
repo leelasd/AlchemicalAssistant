@@ -1,8 +1,8 @@
 import numpy as np
 import networkx as nx
-from ReadZmat import GetZmatQLJDat
-from FEPBOSSReader import tor_cent
-from Vector_algebra import Distance, pairing_func
+from AlchemicalAssistant.ReadZmat import GetZmatQLJDat
+from AlchemicalAssistant.FEPBOSSReader import tor_cent
+from AlchemicalAssistant.Vector_algebra import Distance, pairing_func
 import os
 
 

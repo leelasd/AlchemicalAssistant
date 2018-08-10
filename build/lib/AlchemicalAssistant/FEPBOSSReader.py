@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 from collections import OrderedDict
-from ReadZmat import GetZmatQLJDat
+from AlchemicalAssistant.ReadZmat import GetZmatQLJDat
 
 
 def Refine_PDB_file(fname):

@@ -1,8 +1,8 @@
 import pandas as pd
 import networkx as nx
 import numpy as np
-from MolReaders import impr_id, tor_id
-from Vector_algebra import Distance, angle, dihedral, pairing_func, ang_id
+from AlchemicalAssistant.MolReaders import impr_id, tor_id
+from AlchemicalAssistant.Vector_algebra import Distance, angle, dihedral, pairing_func, ang_id
 import collections
 
 
