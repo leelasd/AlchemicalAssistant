@@ -92,11 +92,11 @@ def PrintBNDS(bAB, bA, bB, itp):
     for row in bA.iterrows():
         i, r = row
         itp.write('%5d %5d %5d %11.4f %10.3f %11.4f %10.3f ; ANNIHILATE\n' % (
-            r.Acl1, r.Acl2, 1, r.ARIJ * 0.1, r.AKIJ * 836.8, 0.03, DUM_BND_CONST * 836.8))
+            r.Acl1, r.Acl2, 1, r.ARIJ * 0.1, r.AKIJ * 836.8, 0.09, DUM_BND_CONST * 836.8))
     for row in bB.iterrows():
         i, r = row
         itp.write('%5d %5d %5d %11.4f %10.3f %11.4f %10.3f ; CREATE\n' % (
-            r.Bcl1, r.Bcl2, 1, 0.03, DUM_BND_CONST * 836.8, r.BRIJ * 0.1, r.BKIJ * 836.8))
+            r.Bcl1, r.Bcl2, 1, 0.09, DUM_BND_CONST * 836.8, r.BRIJ * 0.1, r.BKIJ * 836.8))
     return None
 # ANGLES PRINTING
 

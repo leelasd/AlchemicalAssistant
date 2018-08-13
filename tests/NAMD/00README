@@ -1,0 +1,32 @@
+## Notes about NAMD tests
+
+- Check if the ICs of the A2B residue is exactly the sums of individual
+  ICs of state A and B
+- In theory because of the presence of non-interacting initial and 
+  final states, when minimized or performed a single point calculation
+  energy should be sum of initial and final states
+
+## Notes to Run scripts
+
+```scriptname: gasphase_setup.pgn
+topology INI_2_FIN.rtf  
+segment COM { residue 1 A2B }
+coordpdb INI_2_FIN_NAMD.pdb COM 
+writepsf A2B_gas.psf
+writepdb A2B_gas.pdb
+```
+
+### run the script by using the following command 
+
+$ psfgen gasphase_setup.pgn
+$ cp A2B_gas.pdb zero.fep 
+- initial and final states are annotated in the B-factor column with 1.0 and -1.0  
+$ alchemify A2B_gas.psf zero.psf zero.fep 
+$ use zero.psf instead of A2B_gas.psf for minimizing 
+
+
+For JAKsystem 
+- A wild card for missing dihedral angle is because there can be an angle or dihedral possible 
+  between two atoms, like in a 5 membered ring. Thats why without this wildcard it gives an error
+  Need to worry about this issue in LigParGen :D 
+

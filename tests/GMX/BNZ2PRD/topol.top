@@ -1,0 +1,11 @@
+#include "oplsaa.ff/forcefield.itp"
+#include "BNZ_2_PRD.itp"
+#include "oplsaa.ff/tip4p.itp"
+[ system ]
+; Name
+OPLSAA UNK in water
+
+[ molecules ]
+; Compound        #mols
+A2B 	1
+SOL               805

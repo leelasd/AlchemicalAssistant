@@ -1,0 +1,2 @@
+package require solvate  
+solvate zero.psf zero.pdb -t 13 -o zero_wb -rotate 

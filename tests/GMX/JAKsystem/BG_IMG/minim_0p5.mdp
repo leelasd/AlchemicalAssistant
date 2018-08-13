@@ -1,0 +1,32 @@
+; LINES STARTING WITH ';' ARE COMMENTS
+title		= Minimization	; Title of run
+
+; Parameters describing what to do, when to stop and what to save
+integrator	= steep		; Algorithm (steep = steepest descent minimization)
+emtol		= 10.0  	; Stop minimization when the maximum force < 10.0 kJ/mol
+emstep      = 0.01      ; Energy step size
+nsteps		= 500	  	; Maximum number of (minimization) steps to perform
+
+; Parameters describing how to find the neighbors of each atom and how to calculate the interactions
+cutoff-scheme            = group
+nstlist                  = 0
+ns_type                  = simple
+pbc                      = no
+rlist                    = 0.0
+
+coulombtype              = cut-off
+coulomb-modifier         = none
+rcoulomb                 = 0.0
+
+vdwtype                  = cut-off
+vdw-modifier             = none
+rvdw                     = 0.0
+
+free-energy              = yes
+delta-lambda             = 0
+init-lambda-state        = 10
+; lambda paths: disappearing atoms: q_off before vdW
+coul-lambdas             = 0.0 0.2 0.4 0.6 0.8 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+bonded-lambdas           = 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+vdw-lambdas              = 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+mass-lambdas             = 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0

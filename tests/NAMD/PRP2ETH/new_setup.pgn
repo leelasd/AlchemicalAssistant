@@ -1,0 +1,5 @@
+topology PRP_2_ETH.rtf  
+segment COM { residue 1 A2B }
+coordpdb PRP_2_ETH_NAMD.pdb COM 
+writepsf A2B_gas.psf
+writepdb A2B_gas.pdb

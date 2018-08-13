@@ -1,0 +1,24 @@
+REMARK LIGPARGEN GENERATED PQR FILE
+ATOM      1  C00 PRP     1       1.000   1.000   0.000 -0.2365 1.9643
+ATOM      2  C01 PRP     1      -0.533   1.000   0.000 -0.1765 1.9643
+ATOM      3  C02 PRP     1      -1.119   1.000   1.417 -0.2365 1.9643
+ATOM      4  H03 PRP     1       1.390   1.000  -1.019  0.0797 1.4031
+ATOM      5  H04 PRP     1       1.397   0.118   0.505  0.0797 1.4031
+ATOM      6  H05 PRP     1       1.397   1.882   0.505  0.0797 1.4031
+ATOM      7  H06 PRP     1      -0.897   0.127  -0.544  0.0857 1.4031
+ATOM      8  H07 PRP     1      -0.897   1.873  -0.544  0.0857 1.4031
+ATOM      9  H08 PRP     1      -0.804   0.118   1.977  0.0797 1.4031
+ATOM     10  H09 PRP     1      -2.209   1.000   1.389  0.0797 1.4031
+ATOM     11  H0A PRP     1      -0.804   1.882   1.977  0.0797 1.4031
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    1    4 
+CONECT    1    5 
+CONECT    1    6 
+CONECT    2    7 
+CONECT    2    8 
+CONECT    3    9 
+CONECT    3   10 
+CONECT    3   11 
+END

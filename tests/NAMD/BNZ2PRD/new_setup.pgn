@@ -1,0 +1,5 @@
+topology BNZ_2_PRD.rtf  
+segment COM { residue 1 A2B }
+coordpdb BNZ_2_PRD_NAMD.pdb COM 
+writepsf A2B_gas.psf
+writepdb A2B_gas.pdb

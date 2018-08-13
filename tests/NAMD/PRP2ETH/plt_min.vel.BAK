@@ -1,0 +1,22 @@
+REMARK  FINAL VELOCITIES WRITTEN BY NAMD AT TIMESTEP 100
+ATOM      1  C00 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  C 
+ATOM      2  C01 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  C 
+ATOM      3  C02 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  C 
+ATOM      4  H03 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM      5  H04 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM      6  H05 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM      7  H06 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM      8  H07 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM      9  H08 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     10  H09 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     11  H10 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     12  C11 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  C 
+ATOM     13  C12 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  C 
+ATOM     14  O13 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  O 
+ATOM     15  H14 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     16  H15 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     17  H16 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     18  H17 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     19  H18 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+ATOM     20  H19 A2B     1       0.000   0.000   0.000  1.00  0.00      COM  H 
+END

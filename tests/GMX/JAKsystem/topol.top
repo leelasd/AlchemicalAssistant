@@ -1,0 +1,9 @@
+#include "oplsaa.ff/forcefield.itp"
+#include "INI_2_FIN.itp"
+[ system ]
+; Name
+OPLSAA UNK
+
+[ molecules ]
+; Compound        #mols
+A2B 	1

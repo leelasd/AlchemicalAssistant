@@ -1,0 +1,20 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 ETH     1       1.000   1.000   0.000
+ATOM      2  C01 ETH     1      -0.531   1.000   0.000
+ATOM      3  O02 ETH     1      -0.998   1.000   1.332
+ATOM      4  H03 ETH     1       1.386   1.025  -1.020
+ATOM      5  H04 ETH     1       1.407   0.111   0.483
+ATOM      6  H05 ETH     1       1.393   1.875   0.519
+ATOM      7  H06 ETH     1      -0.922   0.130  -0.531
+ATOM      8  H07 ETH     1      -0.911   1.887  -0.510
+ATOM      9  H08 ETH     1      -0.749   0.191   1.755
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    1    4 
+CONECT    1    5 
+CONECT    1    6 
+CONECT    2    7 
+CONECT    2    8 
+CONECT    3    9 
+END

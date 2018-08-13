@@ -1,0 +1,9 @@
+## Notes about the tests 
+- minim_0.mdp minimizes the initial geometry at lambda = 0 
+- minim_1.mdp minimizes the initial geometry at lambda = 1
+
+##  Running the tests 
+$ gmx grompp -f minim.mdp -c INI_2_FIN.gro -p topol.top -o minim_0.tpr 
+$ gmx mdrun -deffnm minim_0
+$ gmx grompp -f minim.mdp -c INI_2_FIN.gro -p topol.top -o minim_1.tpr 
+$ gmx mdrun -deffnm minim_1

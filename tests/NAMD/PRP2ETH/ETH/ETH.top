@@ -1,0 +1,75 @@
+Remarks LigParGen generated XPLOR-TOP file for Bonvin group (by Leela Dodda)
+
+set echo=false end
+
+autogenerate angles=True dihedrals=True end
+{ atomType  mass }
+MASS C800 12.0110 
+MASS C801 12.0110 
+MASS O802 15.9990 
+MASS H803 1.0080 
+MASS H804 1.0080 
+MASS H805 1.0080 
+MASS H806 1.0080 
+MASS H807 1.0080 
+MASS H808 1.0080 
+
+RESIdue   ETH
+
+GROUP
+
+{ atomName  atomType  Charge } 
+ATOM    C00 TYPE=   C800 CHARGE=  -0.2899 END
+ATOM    C01 TYPE=   C801 CHARGE=   0.1178 END
+ATOM    O02 TYPE=   O802 CHARGE=  -0.6894 END
+ATOM    H03 TYPE=   H803 CHARGE=   0.0899 END
+ATOM    H04 TYPE=   H804 CHARGE=   0.0899 END
+ATOM    H05 TYPE=   H805 CHARGE=   0.0899 END
+ATOM    H06 TYPE=   H806 CHARGE=   0.0925 END
+ATOM    H07 TYPE=   H807 CHARGE=   0.0925 END
+ATOM    H08 TYPE=   H808 CHARGE=   0.4068 END
+
+{ Bonds: atomName1  atomName2 } 
+BOND C01 C00 
+BOND O02 C01 
+BOND H03 C00 
+BOND H04 C00 
+BOND H05 C00 
+BOND H06 C01 
+BOND H07 C01 
+BOND H08 O02 
+
+{ Angles: atomName1 atomName2 atomName3} 
+ANGLe C800  C801  O802 
+ANGLe C801  C800  H803 
+ANGLe C801  C800  H804 
+ANGLe C801  C800  H805 
+ANGLe C800  C801  H806 
+ANGLe C800  C801  H807 
+ANGLe C801  O802  H808 
+ANGLe H803  C800  H804 
+ANGLe H804  C800  H805 
+ANGLe O802  C801  H806 
+ANGLe O802  C801  H807 
+ANGLe H803  C800  H805 
+ANGLe H806  C801  H807 
+
+{ Proper Dihedrals: aName1 aName2 aName3 aName4 } 
+DIHEdral H03   C00   C01   O02 
+DIHEdral H04   C00   C01   O02 
+DIHEdral H05   C00   C01   O02 
+DIHEdral H06   C01   C00   H03 
+DIHEdral H07   C01   C00   H03 
+DIHEdral H08   O02   C01   C00 
+DIHEdral H07   C01   C00   H05 
+DIHEdral H06   C01   C00   H04 
+DIHEdral H08   O02   C01   H07 
+DIHEdral H06   C01   C00   H05 
+DIHEdral H07   C01   C00   H04 
+DIHEdral H08   O02   C01   H06 
+
+{ Improper Dihedrals: aName1 aName2 aName3 aName4 }
+
+END {RESIdue UNK}
+
+set echo=true end
